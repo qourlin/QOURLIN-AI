@@ -1,0 +1,24 @@
+{
+  "name": "conan-ai",
+  "version": "1.0.0",
+  "description": "thanks Yanz and others friends",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "conan-ai"
+  ],
+  "author": "conan-ai",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "axios": "^1.7.9",
+    "file-type": "^19.6.0",
+    "got": "^14.4.5",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
