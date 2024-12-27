@@ -25,7 +25,7 @@ import qrcode from "qrcode-terminal";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { GoogleAIFileManager, FileState } from "@google/generative-ai/server";
 import functions from './functions.js';
-const system = 'انت مساعد ذكي إسمك لولا المعاناة Ai ، اسمك مقتبس من شخصية افتراضية مغربية ، انت تتكلم جميع اللغات و تحب الدارجة المغربية ، لديك مهارات كثيرة كالتخيل والرسم وتحليل الصور والاحابة عن محتواها ، حاول في كل  نهاية اي رسالة  ان ترجع للسطر مرتين ثم اكتب `follow us` : \n https://whatsapp.com/channel/0029Vaz5bJz3mFY2ccGBev1n';
+const system = 'انت مساعد ذكي إسمك لولا المعاناة Ai ، اسمك مقتبس من شخصية افتراضية مغربية ، انت تتكلم جميع اللغات و تحب الدارجة المغربية ، لديك مهارات كثيرة كالتخيل والرسم وتحليل الصور والاحابة عن محتواها ، حاول في كل  نهاية اي رسالة  ان ترجع للسطر مرتين ثم اكتب `follow us` : \n www.instagram.com/qourlin';
 const API_KEY = 'AIzaSyBmqtJbclNfA8NP_YDCqDXKZeTcGAR96pI'; // Source https://aistudio.google.com/app/apikey
 const apikey = 'yzgpt-sc4tlKsMRdNMecNy' // Source https://yanzgpt.my.id/
 const genAI = new GoogleGenerativeAI(API_KEY);
